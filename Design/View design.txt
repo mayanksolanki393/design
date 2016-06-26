@@ -1,0 +1,45 @@
+HTML Pages
+	|- User
+		|- Projects Tab (This page will show all the projects allocated to the particular developer)
+		|- Project-Name Tab (This is a link to the requirements page of that particular developer)
+			|- add new requirement button ( CREATE )
+			|- options to filter requirements by Type, Status, Version, Date range, Created By ( FILTERING )
+			|- search bar to search by title, shortTitle, description, subject
+			|- List of requirements that have been created for that module 
+				|- button/link to see details of the requirement 
+					|- basic details about the requirement
+					|- edit requirement( UPDATE )
+						|- form to edit requirement
+					|- request to delete requirement ( DELETE )	
+					|- list of elaborations for that requirement
+						|- view details about elaboration
+						|- edit elaboration
+							|- form to edit elaboration
+						|- delete elaboration
+	
+	|- Admin			
+		|- Projects tab		
+			|- add new project ( CREATE )
+				|- form to add new project to the RMS
+			|- search bar for project search
+			|- filter by -> title,creation date,status
+			|- list of all projects( VIEW )
+				|- edit project ( UPDATE )
+				|- delete project ( DELETE )
+				|- view details page 
+					|- redirect to Project-Name Tab in above role
+		
+		|- Users tab
+			|- add new User ( CREATE )
+				|- form to add new user
+			|- search-bar for searching users
+			|- filter-by options
+			|- list of users ( VIEW )
+				|- view details page
+					|- edit user ( UPDATE )
+					|- remove user ( DELETE )
+					|- list of projects selected user is working on
+						|- remove user from project option
+						|- view details link
+							|- redirect to Project-Name Tab in above role
+				
